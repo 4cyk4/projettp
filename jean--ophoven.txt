@@ -19,10 +19,18 @@ git status
 git commit -m "Ajout de dossiers, déplacement des fichiers index et style dans leurs dossiers respectifs, ajout de mon txt"
 git push origin main
 git status
-git rm *
+git rm index.html | git rm styles.css
+git status
+git add jean--ophoven.txt
 git status
 git commit -m "Suppression des fichiers devenus inutiles"
 git push origin main
-
+git branch -a
+git checkout lolojo
+git checkout main (pour sauvegarder les modifications de mon txt)
+git status
+git add jean--ophoven.txt
+git commit -m "Enregistrement de modifications du txt"
+git push origin main
 
 
