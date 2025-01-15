@@ -13,13 +13,15 @@ echo 'body { font-family: Arial, sans-serif; background-color: #f0f0f0; }' > sty
 echo '# Projet Mmh Chicken' > README.md
 git init
 git add .
-git commit -m "Premier commit : ajout des fichiers HTML, CSS et README"
+git commit -m "Premier commit : ajout des fichiers HTML, CSS et d'un fichier README"
 git remote add origin https://github.com/4cyk4/projettp.git
 git remote -v
+git log
 git branch -M main
 git push -u origin main
 git branch
 git checkout main
+git status
 git pull origin main
 code
 git checkout -b daphne
@@ -31,12 +33,21 @@ git add.
 git commit -m "modifs dans le header + nav"
 git push origin daphne
 git cheackout main
+git status
 git pull origin main
 git merge daphne
 git add .
 git commit -m "ma branche > la votre ; Ajout des pages commander.html, mmhchicken_background.html et code ajouté à index.html. modifications aussi ajoutées au txt bodo"
 git push origin main
+git status
 git pull origin main
 git add .
 git commit -m "premiere version CSS du site avec un peu de mobile (pas bcp) + modifs à jour de bodo.txt"
 git push origin main
+git status
+git pull origin main
+git add .
+git commit -m "dernière version du bodo.txt"
+git push origin main
+git log
+git status
