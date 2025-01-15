@@ -1,0 +1,16 @@
+cd cours/git/
+mkdir projettp
+ls
+cd projettp
+touch bodo
+bodo
+git --version
+git config --global user.name "4cyk4"
+git config --global user.email "daphne.bodo@efrei.net"
+echo '<!DOCTYPE html><html><head><title>mmh chicken</title></head><body><h1>Bienvenue chez Mmh Chicken</h1></body></html>' > index.html
+ls
+echo 'body { font-family: Arial, sans-serif; background-color: #f0f0f0; }' > styles.css
+echo '# Projet Mmh Chicken' > README.md
+git init
+git add .
+git remote add origin https://github.com/4cyk4/projettp.git
