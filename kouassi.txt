@@ -40,8 +40,12 @@ git push origin main permet d'envoyer le push sur le repo
 git pull origin main --rebase verifier que tout est update
 git rebase --continue verifier si il n'y a pas de rebase en cours
 
-git pull origin main permet de recuperer les updates 
+git pull origin main --no-rebase  permet de recuperer les updates 
 
+git touch kouassi.txt creer le fichier txt
+git add kouassi.txt  ajoute le fichier au git 
+git commit -m "fichier txt" creer le commit 
+git push origin main permet de deposer sur le repot 
 
 
 
