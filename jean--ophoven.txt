@@ -1,0 +1,20 @@
+Commandes utilisées lors du TP Final du Cours sur GIT:
+
+mkdir tpFinalGIT
+cd tpFinalGIT
+touch jean--ophoven.txt
+nano jean--ophoven.txt
+git clone https://github.com/4cyk4/projettp
+ls
+cd projettp/
+ls
+git branch -a
+git branch lolojo
+mkdir html | mkdir css | mkdir images
+git config --global user.name "BaguetteUser"
+git config --global user.mail ""
+git status
+git add *
+git commit -m "Ajout de dossiers, déplacement des fichiers index et style dans leurs dossiers respectifs, ajout de mon txt"
+git 
+
