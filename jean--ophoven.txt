@@ -49,3 +49,13 @@ git add *
 git status
 git commit -m "Ajout du fichier menus.html ainsi que l'image nugget3.html"
 git push origin lolojo
+git log --oneline
+git branch
+git branch -a
+cd ..
+git status
+git add *
+git commit -m "Modification du txt"
+git push origin lolojo
+git checkout main
+git pull origin main
