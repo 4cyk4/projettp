@@ -15,6 +15,14 @@ git config --global user.name "BaguetteUser"
 git config --global user.mail ""
 git status
 git add *
+git status
 git commit -m "Ajout de dossiers, déplacement des fichiers index et style dans leurs dossiers respectifs, ajout de mon txt"
-git 
+git push origin main
+git status
+git rm *
+git status
+git commit -m "Suppression des fichiers devenus inutiles"
+git push origin main
+
+
 
