@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mmh Chicken</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- je veux une page de commande en ligne pour commander différents menus/produis parmis une liste déroulante, pi apres faudra mettre son adresse de livraison et ses infos bancaires etc etc seulement en html (c'est un site maquette on s'en fout si on peut rien tirer des users)-->
+
+<body>
+    <header>
+        <h1>Bienvenue chez Mmh Chicken</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="commander.html">Commander</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mmhchicken_background.html">Histoire de Mmh Chicken</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>Le meilleur restaurant de poulet de la région, venez goûter nos délicieuses recettes.</p>
+    </main>
+    <section>
+        <h2>Commander en ligne</h2>
+        <form action="commander.html" method="post">
+            <label for="menu">Choisissez un menu :</label>
+            <select name="menu" id="menu">
+                <option value="menu1">Menu 1</option>
+                <option value="menu2">Menu 2</option>
+                <option value="menu3">Menu 3</option>
+            </select>
+            <br>
+            <label for="quantity">Quantité :</label>
+            <input type="number" name="quantity" id="quantity" min="1" max="10">
+            <br>
+            <label for="address">Adresse de livraison :</label>
+            <input type="text" name="address" id="address">
+            <br>
+            <label for="card">Numéro de carte bancaire :</label>
+            <input type="text" name="card" id="card">
+            <br>
+            <input type="submit" value="Commander">
+        </form>
+    </section>
+</body>
