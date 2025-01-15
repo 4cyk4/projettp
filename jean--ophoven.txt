@@ -63,3 +63,12 @@ git merge lolojo
 git add *
 git commit -m "Merge de la branche lolojo"
 git push origin main
+git branch
+nano jean--ophoven.txt
+git pull origin main
+ls
+nano css/styles.css
+git status
+git add *
+git commit -m "Derniers ajouts de lignes dans mon txt et modification du fichier styles.css"
+git push origin main
