@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous Contacter</title>
+</head>
+<body>
+    <h1>Nous Contacter</h1>
+    <link rel="stylesheet" href="<?= ROOT ?>css/contacts.css">
+<form action="<?= ROOT ?>php/formulairedecontacts.php" method="post">
+  <label for="nom">Nom:</label><br>
+  <input type="text" id="nom" name="nom" placeholder="Met ton nom Jacky !"><br>
+  <label for="prenom">Prénom:</label><br>
+  <input type="text" id="prenom" name="prenom" placeholder="Met ton prenom Jacky !"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="met ton email Jacky !"><br>
+  <label for="sujet">Sujet:</label><br>
+  <input type="text" id="sujet" name="sujet" placeholder=" Met ton Sujet Jacky !"><br>
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" placeholder=" Met ton message Jacky !"></textarea><br>
+  <input type="submit" value="Envoyer" maxlength="1000">
+</form>
