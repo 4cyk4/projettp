@@ -59,3 +59,7 @@ git commit -m "Modification du txt"
 git push origin lolojo
 git checkout main
 git pull origin main
+git merge lolojo
+git add *
+git commit -m "Merge de la branche lolojo"
+git push origin main
