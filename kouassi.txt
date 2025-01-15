@@ -1,0 +1,48 @@
+
+mkdir projettp 
+cd projettp
+git init 
+git --version 
+git config user.email "m9777929797@gmail.com"
+git config user.name "ricola001"
+mdkdir projettp
+mkdir html créer le dossier
+cd html va dans le dossier
+touch index.html créer le fichier
+cd .. retour au dossier 
+mkdir css créer le dossier
+cd css va au dossier css 
+touch styles.css créer le fichier 
+git clone https://github.com/4cyk4/projettp #permet de recuperer le repos
+
+git pull origin main recuperer les updates 
+
+git branch aym créer ma branche
+git add contact.html ajouter le fichier html 
+git commit -m "page contact" ajouter le commit
+git push origin aym  permet de deposer les nouveau fichier sur ma branche
+
+git add contact.html  ajouter un fichier
+git commit -m "page contactV2" ajouter le commit
+git push origin aym push sur ma branche mon fichier html 
+
+git cheackout main permet de changer de branche
+git pull origin main recuperer les fichier du main
+git merge  aym permet de fusionner les branches
+git add . ajouter les fichier
+git commit -m "contactV2" ajouter un commit
+git push origin main j'ai obtenue la meme erreur qu'hier j'ai donc utilise rebase
+
+git pull origin main --no-rebase permet integrer les modif distance a la branche
+git add . ajoute des fichier 
+git commit -m "merge contact." pour faire le commit
+git push origin main permet d'envoyer le push sur le repo
+git pull origin main --rebase verifier que tout est update
+git rebase --continue verifier si il n'y a pas de rebase en cours
+
+git pull origin main permet de recuperer les updates 
+
+
+
+
+
