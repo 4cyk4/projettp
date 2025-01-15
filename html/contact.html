@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nous Contacter</title>
+    <title>Mmh Chiken </title>
 </head>
-<body>
+<body>   
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="menus.html">Menu</a></li>
+            <li><a href="commander.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mmhchicken_background.html">Histoire de Mmh Chicken</a></li>
+        </ul>
+    </nav>
+
     <h1>Nous Contacter</h1>
-    <link rel="stylesheet" href="<?= ROOT ?>css/contacts.css">
-<form action="<?= ROOT ?>php/formulairedecontacts.php" method="post">
+    <link rel="stylesheet" href="../css/styles.css">
+<form action="../php/formulairedecontacts.php" method="post">
   <label for="nom">Nom:</label><br>
   <input type="text" id="nom" name="nom" placeholder="Met ton nom Jacky !"><br>
   <label for="prenom">Prénom:</label><br>
@@ -21,3 +31,4 @@
   <textarea id="message" name="message" placeholder=" Met ton message Jacky !"></textarea><br>
   <input type="submit" value="Envoyer" maxlength="1000">
 </form>
+ 
