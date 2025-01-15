@@ -26,4 +26,7 @@ git checkout -b daphne
 git branch
 git add .
 git commit -m "Ajout des pages commander.html, mmhchicken_background.html et code ajouté à index.html. modifications aussi ajoutées au txt bodo"
-
+git push origin daphne
+git add.
+git commit -m "modifs dans le header + nav"
+git push origin daphne
