@@ -32,5 +32,20 @@ git status
 git add jean--ophoven.txt
 git commit -m "Enregistrement de modifications du txt"
 git push origin main
-
-
+git checkout lolojo
+git pull origin main
+ls
+cd html
+ls
+touch nosMenusEtProduits.html
+ls
+nano nosMenusEtProduits.html
+mv nosMenusEtProduits.html menus.html
+ls
+nano menus.html
+ls
+git status
+git add *
+git status
+git commit -m "Ajout du fichier menus.html ainsi que l'image nugget3.html"
+git push origin lolojo
